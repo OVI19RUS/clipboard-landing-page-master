@@ -1,0 +1,209 @@
+body {font-family: 'Bai Jamjuree', sans-serif;
+font-size: 18px;
+color: hsl(201, 11%, 66%);}
+
+h1, h3 {color: hsl(210, 10%, 33%);
+font-weight: 600;}
+
+.Header-img {position: absolute;
+margin-top: -20px;}
+/* First Container */
+
+.top-container {text-align: center;
+padding: 10% 27% 7%;}
+
+.logo-img {width: 14%}
+
+/* Second Container */
+
+.second-container {text-align: center;
+padding: 0 30% 3%;}
+
+/* Features */
+
+.features {text-align: left;}
+
+.Mac {float: left;
+margin-left: -4%;}
+
+.Quick-Search, .Sync, .History {margin-top: 25px;}
+
+.List {padding: 4% 8% 15% 57%;}
+
+/* Third Container */
+
+.third-container {text-align: center;
+padding: 3% 18% 0%;}
+
+.devices {padding: 5% 0 0;}
+
+/* Fourt Container */
+
+.fourth-container {text-align: center;
+padding: 0 10%;}
+
+.card-group {margin-top: 8%;}
+
+.card {border: none;}
+
+.Tiny-img {width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+/* Fifth Container */
+
+.fifth-container {text-align: center;
+    padding: 7% 3% 0;}
+
+.Logo {margin: 0 3%;}
+/* Sixth COntainer */
+
+.sixth-container {text-align: center;
+    padding: 10% 30% 5%;}
+
+/* Bottom Container */
+
+#bottom-container {text-align: center;
+    background-color: hsl(201, 11%, 66%);
+    color: hsl(210, 10%, 33%);
+    padding: 3% 9%;
+}
+
+.alt-logo-img {width:40px;
+float: left;}
+
+.Help {display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-right: 400px;}
+
+.social-logo {display: inline;
+    color: hsl(210, 10%, 33%);
+    float: right;
+margin-top: -4.4%;}
+
+.social {margin: 0 15px;}
+
+.social:hover {color: hsl(171, 66%, 44%);}
+
+.FAQ {order: 1;}
+
+.Contact {order: 4;}
+
+.Privacy {order: 2;}
+
+.Press {order: 5;}
+
+.Guide {order: 3;}
+
+a {text-decoration: none;
+    color: hsl(210, 10%, 33%)}
+
+a:hover {color: hsl(171, 66%, 44%);}
+
+/* Footer */
+
+footer {bottom: 0;}
+
+.attribution { font-size: 11px; 
+    text-align: center; 
+    background-color: hsl(201, 11%, 66%);
+    color: hsl(210, 10%, 33%);}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Buttons */
+
+button {margin-top: 4%;}
+
+.iOS {
+    background: hsl(171, 66%, 44%);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Bai Jamjuree;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+  }
+  
+  .iOS:hover {
+    background: hsl(171, 90%, 55%);
+    text-decoration: none;
+  }
+
+.Mac-btn {
+    background: hsl(233, 100%, 69%);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Bai Jamjuree;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+  }
+  
+.Mac-btn:hover {
+    background: hsl(233, 76%, 56%);
+    text-decoration: none;
+  }
+
+  /* Media */
+
+  @media (max-width:700px) {
+    
+    .logo-img {width: 100px;
+    padding-bottom: 40px;}
+
+    .top-container {padding: 10% 6% 30%;}
+
+    .second-container {padding: 0 6%;}
+
+    .Mac {margin: 11% 12px 11% 12px;
+    width: 350px;}
+
+    .List {text-align: center;
+    padding: 10% 6% 30%;}
+
+    .third-container {padding: 0 6%;}
+
+    .devices {width: 350px;
+    margin: 11% 0;}
+
+    .fourth-container {padding: 0 6%;}
+
+    .card-group {margin-top: 30%;}
+
+    .col {padding: 10%;}
+
+    .sixth-container {padding: 41% 6%;}
+
+    #bottom-container {padding: 10% 6%;}
+
+    .alt-logo-img {float: none;
+    text-align: center;}
+
+    .Help {display: grid;
+        grid-template-columns: 1fr;
+        margin: 10% 0;}
+
+    .FAQ {order: 1;
+    padding: 3%;}
+
+    .Contact {order: 2;
+        padding: 3%;}
+
+    .Privacy {order: 3;
+        padding: 3%;}
+
+    .Press {order: 4;
+        padding: 3%;}
+
+    .Guide {order: 5;
+        padding: 3%;}
+
+    .social-logo {float: none;
+        text-align: center;}
+
+  }
